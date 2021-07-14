@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500"><defs><style type="text/css"><![CDATA[ 
+:root {
+  background: #fff;
+}
+.current {
+  fill: #2aa748;
+}
+.active {
+  fill: #47b4ff;
+}
+.maintenance {
+  fill: #89a19d;
+}
+.unstable {
+  fill: #ffb800;
+}
+.bar-join {
+  fill: #ffffff;
+}
+.bar-join.unstable, .bar-join.current {
+  display: none;
+}
+.tick text {
+  font: 16px sans-serif;
+  fill: #000;
+}
+.axis--y .tick text {
+  text-anchor: end;
+}
+.label {
+  fill: #fff;
+  font: 20px sans-serif;
+  font-weight: 100;
+  text-anchor: start;
+  dominant-baseline: middle;
+  text-transform: uppercase;
+} ]]></style></defs><g id="bar-container" transform="translate(110, 30)"><g class="axis axis--x" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><g class="tick" opacity="1" transform="translate(0.3744292237442922,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5"></line><text fill="#000" y="0" x="0.5" dy="-10">Jun 2021</text></g><g class="tick" opacity="1" transform="translate(67.77168949771689,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5" stroke-dasharray="2,2"></line><text fill="#000" y="0" x="0.5" dy="-10">Jul 2021</text></g><g class="tick" opacity="1" transform="translate(137.41552511415526,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5"></line><text fill="#000" y="0" x="0.5" dy="-10">Aug 2021</text></g><g class="tick" opacity="1" transform="translate(207.0593607305936,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5" stroke-dasharray="2,2"></line><text fill="#000" y="0" x="0.5" dy="-10">Sep 2021</text></g><g class="tick" opacity="1" transform="translate(274.4566210045662,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5"></line><text fill="#000" y="0" x="0.5" dy="-10">Oct 2021</text></g><g class="tick" opacity="1" transform="translate(344.1004566210046,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5" stroke-dasharray="2,2"></line><text fill="#000" y="0" x="0.5" dy="-10">Nov 2021</text></g><g class="tick" opacity="1" transform="translate(411.5913242009132,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5"></line><text fill="#000" y="0" x="0.5" dy="-10">Dec 2021</text></g><g class="tick" opacity="1" transform="translate(481.23515981735164,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5" stroke-dasharray="2,2"></line><text fill="#000" y="0" x="0.5" dy="-10">Jan 2022</text></g><g class="tick" opacity="1" transform="translate(550.87899543379,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5"></line><text fill="#000" y="0" x="0.5" dy="-10">Feb 2022</text></g><g class="tick" opacity="1" transform="translate(613.783105022831,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5" stroke-dasharray="2,2"></line><text fill="#000" y="0" x="0.5" dy="-10">Mar 2022</text></g><g class="tick" opacity="1" transform="translate(683.3333333333334,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5"></line><text fill="#000" y="0" x="0.5" dy="-10">Apr 2022</text></g><g class="tick" opacity="1" transform="translate(750.730593607306,0)"><line stroke="#89a19d" y2="440" x1="0.5" x2="0.5" stroke-dasharray="2,2"></line><text fill="#000" y="0" x="0.5" dy="-10">May 2022</text></g></g><g class="axis axis--y" fill="none" font-size="10" font-family="sans-serif" text-anchor="start"><g class="tick" opacity="1" transform="translate(0,86.66666666666666)"><line stroke="#e1e7e7" x2="820" y1="0.5" y2="0.5"></line><text fill="#000" x="0" y="0.5" dy="0.32em" dx="-10">  Fabric 1.16 v1</text></g><g class="tick" opacity="1" transform="translate(0,219.99999999999997)"><line stroke="#e1e7e7" x2="820" y1="0.5" y2="0.5"></line><text fill="#000" x="0" y="0.5" dy="0.32em" dx="-10">  Forge 1.16 v1</text></g><g class="tick" opacity="1" transform="translate(0,353.33333333333326)"><line stroke="#e1e7e7" x2="820" y1="0.5" y2="0.5"></line><text fill="#000" x="0" y="0.5" dy="0.32em" dx="-10">  Fabric 1.17 v2</text></g><line y1="440" y2="440" x2="820" stroke="#89a19d"></line></g><g><rect class="bar maintenance" x="480.76712328767127" y="40" width="339.23287671232873" height="93.33333333333331"></rect><rect class="bar-join maintenance" x="479.76712328767127" y="40" width="2" height="93.33333333333331" style="opacity: 1;"></rect><text class="label" x="495.76712328767127" y="88.66666666666666" style="opacity: 1;">maintenance</text></g><g><rect class="bar active" x="137.04109589041096" y="40" width="343.7260273972603" height="93.33333333333331"></rect><rect class="bar-join active" x="136.04109589041096" y="40" width="2" height="93.33333333333331" style="opacity: 1;"></rect><text class="label" x="152.04109589041096" y="88.66666666666666" style="opacity: 1;">active</text></g><g><rect class="bar unstable" x="96.6027397260274" y="40" width="40.43835616438356" height="93.33333333333331"></rect><rect class="bar-join unstable" x="95.6027397260274" y="40" width="2" height="93.33333333333331" style="opacity: 0;"></rect><text class="label" x="111.6027397260274" y="88.66666666666666" style="opacity: 0;">unstable</text></g><g><rect class="bar maintenance" x="480.76712328767127" y="173.33333333333331" width="339.23287671232873" height="93.33333333333331"></rect><rect class="bar-join maintenance" x="479.76712328767127" y="173.33333333333331" width="2" height="93.33333333333331" style="opacity: 1;"></rect><text class="label" x="495.76712328767127" y="221.99999999999997" style="opacity: 1;">maintenance</text></g><g><rect class="bar active" x="137.04109589041096" y="173.33333333333331" width="343.7260273972603" height="93.33333333333331"></rect><rect class="bar-join active" x="136.04109589041096" y="173.33333333333331" width="2" height="93.33333333333331" style="opacity: 1;"></rect><text class="label" x="152.04109589041096" y="221.99999999999997" style="opacity: 1;">active</text></g><g><rect class="bar unstable" x="96.6027397260274" y="173.33333333333331" width="40.43835616438356" height="93.33333333333331"></rect><rect class="bar-join unstable" x="95.6027397260274" y="173.33333333333331" width="2" height="93.33333333333331" style="opacity: 0;"></rect><text class="label" x="111.6027397260274" y="221.99999999999997" style="opacity: 0;">unstable</text></g><g><rect class="bar active" x="137.04109589041096" y="306.66666666666663" width="682.9589041095891" height="93.33333333333331"></rect><rect class="bar-join active" x="136.04109589041096" y="306.66666666666663" width="2" height="93.33333333333331" style="opacity: 1;"></rect><text class="label" x="152.04109589041096" y="355.33333333333326" style="opacity: 1;">active</text></g><g><rect class="bar unstable" x="96.6027397260274" y="306.66666666666663" width="40.43835616438356" height="93.33333333333331"></rect><rect class="bar-join unstable" x="95.6027397260274" y="306.66666666666663" width="2" height="93.33333333333331" style="opacity: 0;"></rect><text class="label" x="111.6027397260274" y="355.33333333333326" style="opacity: 0;">unstable</text></g></g></svg>
